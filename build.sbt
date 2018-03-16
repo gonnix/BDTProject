@@ -12,4 +12,5 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-hive_2.10" % "1.6.0" exclude ("org.apache.hadoop","hadoop-yarn-server-web-proxy"),
   "org.apache.spark" % "spark-yarn_2.10" % "1.6.0" exclude ("org.apache.hadoop","hadoop-yarn-server-web-proxy"),
   "org.apache.spark" %% "spark-streaming" % "2.2.0",
+  "org.apache.spark" %% "spark-streaming-kafka" % "1.6.2"
 )
